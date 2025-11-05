@@ -1,0 +1,32 @@
+{
+  "alice@example.com": {
+    "mdp": "mdpA"
+  },
+  "bob@example.com": {
+    "mdp": "mdpB",
+    "1": {
+      "box": "inbox",
+      "sender": "alice@example.com",
+      "date": "2025-11-05T15:42:25.023593+00:00",
+      "header": "Hello Bob",
+      "body": "This is Alice. How are you?"
+    },
+    "2": {
+      "box": "inbox",
+      "sender": "alice@example.com",
+      "date": "2025-11-05T15:42:33.438183+00:00",
+      "header": "Hello Bob",
+      "body": "This is Alice. How are you?"
+    },
+    "3": {
+      "box": "inbox",
+      "sender": "alice@example.com",
+      "date": "2025-11-05T15:42:35.338322+00:00",
+      "header": "Hello Bob",
+      "body": "This is Alice. How are you?"
+    }
+  },
+  "a@gmail.com": {
+    "mdp": "feur"
+  }
+}
