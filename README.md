@@ -16,18 +16,18 @@ Very small guide to get the app running on Windows.
 
 2) Open a terminal (Windows Terminal, PowerShell or cmd) and create a virtual environment
 - Create venv:
-  python -m venv .venv
+  `python -m venv .venv`
 
 3) Activate the venv
 - PowerShell:
-  .\.venv\Scripts\Activate.ps1
+  `.\.venv\Scripts\Activate.ps1`
 
 - cmd.exe:
-  .venv\Scripts\activate.bat
+  `.venv\Scripts\activate.bat`
 
 (If activation is blocked in PowerShell, you can run the venv python directly:
-  .venv\Scripts\python -m pip install --upgrade pip
-  .venv\Scripts\python main.py
+  `.venv\Scripts\python -m pip install --upgrade pip`
+  `.venv\Scripts\python main.py`
 )
 
 4) Upgrade pip (optional but recommended)
@@ -37,10 +37,10 @@ Very small guide to get the app running on Windows.
   
 
 6) Install dependencies one by one with pip
-  ```
-  pip install textual
-  pip install pyfiglet
-  ```
+   ```
+   pip install textual
+   pip install pyfiglet
+   ```
 
 (pyfiglet is optional — if omitted the app will use a plain text banner)
 
