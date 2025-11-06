@@ -26,8 +26,10 @@ Very small guide to get the app running on Windows.
   `.venv\Scripts\activate.bat`
 
 (If activation is blocked in PowerShell, you can run the venv python directly:
-  `.venv\Scripts\python -m pip install --upgrade pip`
-  `.venv\Scripts\python main.py`
+   ```
+   .venv\Scripts\python -m pip install --upgrade pip
+  .venv\Scripts\python main.py
+  ```
 )
 
 4) Upgrade pip (optional but recommended)
