@@ -47,6 +47,6 @@ Very small guide to get the app running on Windows.
 (pyfiglet is optional — if omitted the app will use a plain text banner)
 
 6) Run the app
-  python main.py
+  `python main.py`
 
 That's it — the TUI should open in your terminal. If you run into terminal rendering issues, try Windows Terminal or PowerShell 7+ for best results.
