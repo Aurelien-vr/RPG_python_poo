@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / packaging
+build/
+dist/
+*.egg-info/
+
+# Textual state / caches
+*.sqlite
+*.log
+
+# pytest / coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Misc
+.env

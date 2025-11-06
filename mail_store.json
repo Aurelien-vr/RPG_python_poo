@@ -1,6 +1,13 @@
 {
   "alice@example.com": {
-    "mdp": "mdpA"
+    "mdp": "mdpA",
+    "1": {
+      "box": "inbox",
+      "sender": "a@gmail.com",
+      "date": "2025-11-06T09:50:22.345158+00:00",
+      "header": "Head",
+      "body": "Body"
+    }
   },
   "bob@example.com": {
     "mdp": "mdpB",
@@ -24,6 +31,13 @@
       "date": "2025-11-05T15:42:35.338322+00:00",
       "header": "Hello Bob",
       "body": "This is Alice. How are you?"
+    },
+    "4": {
+      "box": "inbox",
+      "sender": "alice@example.com",
+      "date": "2025-11-06T10:04:59.542990+00:00",
+      "header": "test from simple main",
+      "body": "The body.\n\na\n\n\n"
     }
   },
   "a@gmail.com": {
