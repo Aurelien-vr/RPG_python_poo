@@ -31,11 +31,16 @@ Very small guide to get the app running on Windows.
 )
 
 4) Upgrade pip (optional but recommended)
-  python -m pip install --upgrade pip
+   ```
+   python -m pip install --upgrade pip
+   ```
+  
 
-5) Install dependencies one by one with pip
+6) Install dependencies one by one with pip
+  ```
   pip install textual
   pip install pyfiglet
+  ```
 
 (pyfiglet is optional — if omitted the app will use a plain text banner)
 
